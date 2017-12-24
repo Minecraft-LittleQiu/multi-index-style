@@ -133,9 +133,11 @@
                   {!! bs_copyright() !!}
             </div>
             @if (option('website_approve'))
-                <a class="pull-right hidden-xs" href="http://www.miitbeian.gov.cn/" target="_blank">
-                    （{{ option('website_approve') }}）
+            <div class="container text-center" id="website_approve">     
+                <a class="hidden-xs" href="http://www.miitbeian.gov.cn/" target="_blank">
+                    {{ option('website_approve') }}
                 </a>
+            </div>
             @endif
         </footer>
 
